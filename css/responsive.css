@@ -1,0 +1,17 @@
+@media (max-width: 600px)
+{
+  .carousel-caption {
+      bottom: 10px !important;
+  }
+
+  #link-topo {
+      right: 1rem !important;
+  }
+}
+
+@media (min-width: 601px)
+{
+  .carousel-caption {
+      bottom: 20px !important;
+  }
+}

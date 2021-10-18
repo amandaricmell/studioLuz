@@ -1,0 +1,463 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+:root {
+    --color-primary: #A89A60;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.roboto-thin {
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+}
+
+.roboto-light {
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+
+.roboto-regular {
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+.roboto-medium {
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+.roboto-bold {
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+.roboto-bolder {
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+}
+
+.montserrat-thin {
+    font-weight: 100;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.montserrat-light {
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.montserrat-regular {
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.montserrat-medium {
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.montserrat-bold {
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.montserrat-bolder {
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bg-black {
+    background-color: #000;
+}
+
+.bg-primaria {
+    background-color: var(--color-primary);
+}
+
+.primary {
+    color: var(--color-primary);
+}
+
+.black {
+    color: #000;
+}
+
+.cinza {
+    color: #666464;
+}
+
+#link-topo {
+    position: fixed;
+    z-index: 1000000;
+    display: flex;
+    flex-direction: column;
+    right: 3rem;
+    top: 60%;
+}
+
+#link-fixo-topo {
+    background-color: var(--color-primary);
+    color: #000;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    border-radius: 100%;
+}
+
+#link-fixo-topo:hover {
+    opacity: .7;
+    transition: .4s;
+}
+
+#link-fixo-whats {
+    background-color: #64AF41;
+    color: #fff;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    border-radius: 100%;
+}
+
+#link-fixo-whats:hover {
+    opacity: .7;
+    transition: .4s;
+}
+
+#link-redes-cabecalho i{
+    background-color: #000;
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+#link-redes-cabecalho i:hover {
+    opacity: .7;
+    transition: .4s;
+}
+
+#menu {
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 1000001;
+}
+
+.enfeite-cinza {
+    max-width: 80px;
+    height: 3px;
+    background-color: #666464;
+}
+
+.enfeite-black {
+    max-width: 80px;
+    height: 3px;
+    background-color: #000;
+}
+
+#link-menu {
+    color: #fff;
+    text-decoration: none;
+}
+
+#link-menu:hover {
+    color: var(--color-primary);
+    transition: .4s;
+}
+
+#link-redes-menu {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: var(--color-primary);
+    border-radius: 50%;
+    color: #000;
+}
+
+#link-redes-menu:hover {
+    color: var(--color-primary);
+    background-color: #000;
+    border: #A89A60 1px solid;
+    transition: .4s;
+}
+
+.s1 {
+    font-size: 4rem;
+}
+
+.carousel-caption {
+    bottom: 60px !important;
+}
+
+.carousel-indicators li {
+    border-radius: 50%;
+    max-width: 10px;
+    height: 10px;
+}
+
+#link-categorias a{
+    background-color: transparent;
+    color: #000;
+    text-decoration: none;
+}
+
+#link-categorias a:hover{
+    background-color: var(--color-primary);
+    border-radius: 35px;
+    color: #fff;
+    text-decoration: none;
+    transition: .7s;
+}
+
+#link-categorias a.active {
+    background-color: #A89A60;
+    color: #fff;
+    border: 0px;
+    border-radius: 35px;
+}
+
+#link-produto {
+    text-decoration: none;
+    color: #000;
+}
+
+#link-produto img:hover {
+    opacity: .7;
+    transition: .4s;
+}
+
+#link-produto p:hover {
+    color: var(--color-primary);
+    transition: .4s;
+}
+
+#link-ver-todos {
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+}
+
+#link-ver-todos:hover {
+    background-color: transparent;
+    border: #000 1px solid;
+    color: #000;
+    transition: .4s;
+}
+
+#link-saiba-contato {
+    background-color: var(--color-primary);
+    color: #000;
+    text-decoration: none;
+}
+
+#link-saiba-contato:hover {
+    background-color: transparent;
+    color: var(--color-primary);
+    border: #A89A60 1px solid;
+    transition: .4s;
+}
+
+#link-contato {
+    text-decoration: none;
+}
+
+#link-contato i{
+    color: var(--color-primary);
+}
+
+#link-contato p{
+    color: #fff;
+}
+
+#link-contato i:hover{
+    opacity: .7;
+    transition: .4s;
+}
+
+#link-contato p:hover{
+    color: var(--color-primary);
+    transition: .4s;
+}
+
+#link-quem-somos {
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+}
+
+#link-quem-somos:hover {
+    background-color: transparent;
+    color: #000;
+    border: #000 1px solid;
+    transition: .4s;
+}
+
+#link-redes-rodape {
+    text-decoration: none;
+    background-color: var(--color-primary);
+    color: #000;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+#link-redes-rodape:hover {
+    background-color: transparent;
+    color: var(--color-primary);
+    border: #A89A60 1px solid;
+    transition: .2s;
+}
+
+#banner-quem-somos {
+    background: url(../images/quem-somos/ugur-akdemir-FABH5NJEMGM-unsplash.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#banner-portfolio {
+    background: url(../images/interna-portfolio/r-architecture-TRCJ-87Yoh0-unsplash\ \(1\).jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#banner-produtos {
+    background: url(../images/produtos/kati-hoehl-yo65gEzmfkU-unsplash.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#banner-contato {
+    background: url(../images/fale-conosco/corinne-kutz-tMI2_-r5Nfo-unsplash.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.breadcrumb {
+    background-color: transparent;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    content: '>';
+    color: #000;
+}
+
+.breadcrumb-item a {
+    text-decoration: none;
+    color: #000;
+}
+
+.breadcrumb-item.active {
+    font-weight: 700;
+    color: #000;
+}
+
+#indicadores2 {
+    border-radius: 50%;
+    max-width: 10px;
+    height: 10px;
+    background-color: transparent;
+    border: #fff 2px solid;
+}
+
+#indicadores2.active {
+    background-color: #fff;
+    border: none;
+}
+
+#sub-categorias {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: #000 2px solid;
+}
+
+#sub-categorias a.active {
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+}
+
+#sub-categorias a:hover {
+    color: #666464;
+    border: none
+}
+
+#foto-produto a.active {
+    border: none;
+}
+
+#link-opcao-pagamento {
+    color: #000;
+    text-decoration: underline;
+}
+
+#link-opcao-pagamento:hover {
+    color: var(--color-primary);
+    transition: .4s;
+}
+
+#link-compra {
+    background-color: #1F7D16;
+    color: #fff;
+    text-decoration: none;
+}
+
+#link-compra:hover {
+    background-color: transparent;
+    color: #1F7D16;
+    border: #1F7D16 2px solid;
+    transition: .4s
+}
+
+#link-duvida {
+    background-color: var(--color-primary);
+    color: #fff;
+    text-decoration: none;
+}
+
+#link-duvida:hover {
+    background-color: transparent;
+    color: var(--color-primary);
+    border: #A89A60 2px solid;
+    transition: .4s;
+}
+
+#btn-enviar {
+    background-color: #000;
+    color: #fff;
+    border-radius: 0px;
+}
+
+#btn-enviar:hover {
+    background-color: transparent;
+    color: #000;
+    border: #000 2px solid;
+    transition: .4s;
+}
+
+.form-control {
+    border-radius: 0px;
+    border: #000 2px solid;
+}
+
+.form-control::placeholder {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+#link-portfolio img:hover {
+    opacity: .8;
+    transition: .4s;
+}
